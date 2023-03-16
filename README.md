@@ -4,7 +4,7 @@
 
 # Quick install on Oracle Linux 7.9 
 
-			curl https://raw.githubusercontent.com/Olygo/OCI-ShowBackups/main/install.sh | bash
+	curl https://raw.githubusercontent.com/Olygo/OCI-ShowBackups/main/install.sh | bash
 
 # Features 
 - **ShowBackups** :
