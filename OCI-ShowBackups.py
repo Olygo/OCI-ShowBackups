@@ -12,7 +12,6 @@
 
 import oci
 import csv
-#import sys
 import time
 import argparse
 import datetime
