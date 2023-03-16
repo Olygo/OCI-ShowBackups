@@ -2,6 +2,10 @@
 
 **ShowBackups** is a demonstration script showing you how to list compute instance backups (boot & volumes).
 
+# Quick install on Oracle Linux 7.9 
+
+			curl https://raw.githubusercontent.com/Olygo/OCI-ShowBackups/main/install.sh | bash
+
 # Features 
 - **ShowBackups** :
 	- searches for compute instances
