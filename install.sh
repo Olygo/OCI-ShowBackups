@@ -5,7 +5,7 @@
 # has a policy including proper statements.
 
 # Install needed components and configure crontab
-cronjob='0 8 * * * python3 /home/opc/OCI-ShowBackups/OCI-ShowBackups.py'
+
 echo''
 echo '*** run yum update ***'
 sudo yum update -y
@@ -28,7 +28,7 @@ echo ''
 echo '*** install cron job ***'
 cd OCI-ShowBackups/
 crontab -l > ./cron.tmp
-echo $cronjob >> ./cron.tmp
+echo '0 8 * * * python3 /home/opc/OCI-ShowBackups/OCI-ShowBackups.py' >> ./cron.tmp
 crontab ./cron.tmp
 rm ./cron.tmp
 crontab -l
