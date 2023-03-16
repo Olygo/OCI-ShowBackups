@@ -1,1 +1,1 @@
-* 8 * * * python3 /home/opc/OCI-ShowBackups/OCI-ShowBackups.py
+0 8 * * * python3 /home/opc/OCI-ShowBackups/OCI-ShowBackups.py
