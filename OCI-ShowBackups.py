@@ -30,9 +30,9 @@ parser.add_argument('-cf', action='store_true', default=False, dest='is_config_f
 parser.add_argument('-cfp', default='~/.oci/config', dest='config_file_path', help='Path to your OCI config file, default: ~/.oci/config')
 parser.add_argument('-cp', default='DEFAULT', dest='config_profile', help='config file section to use, default: DEFAULT')
 
-parser.add_argument('-c', default='', dest='report_comp', help='Compartment OCID to store the report')
-parser.add_argument('-b', default='', dest='report_bucket', help='Bucket name to store the report, default: reports_YOUR_TENANT_NAME')
-parser.add_argument('-rf', default='~/', dest='report_folder', help='folder path to store the report')
+parser.add_argument('-c', default='', dest='report_comp', help='compartment OCID to store the bucket report, Default: Root')
+parser.add_argument('-b', default='', dest='report_bucket', help='bucket name to store the report, default: reports_YOUR_TENANT_NAME')
+parser.add_argument('-rf', default='~/', dest='report_folder', help='local folder path to store the report, default: ~')
 parser.add_argument('-rn', default='compute_backups_', dest='report_name', help='name of the csv report')
 
 parser.add_argument('-nocloud', action='store_true', default=False, dest='nocloud', help='Do not move report to OCI Storage')
