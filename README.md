@@ -6,9 +6,9 @@
 
 	curl https://raw.githubusercontent.com/Olygo/OCI-ShowBackups/main/install.sh | bash
 
-	- install dependencies
-	- clone git repo locally
-	- schedule cron everyday at 8AM
+- install dependencies
+- clone git repo locally
+- schedule cron everyday at 8AM
 
 # Features 
 - **ShowBackups** :
