@@ -19,14 +19,14 @@
 -cf                      	authenticate through local OCI config_file
 -cfp      config_file     	change OCI config_file path, default: ~/.oci/config
 -cp       config_profile  	indicate config file section to use, default: DEFAULT
--c        compartment_ocid  compartment to store the bucket report, default: root
--b        bucket_name       bucket name to store the report, default: reports_YOUR_TENANT_NAME
--rf       report_folder     local folder path to store the report, default: ~
--rn       report_name       name of the csv report, default: compute_backups_CURRENT_DATE_TIME
--nocloud                    if used: do not store csv report on OCI, default: False
--tlc      compartment_ocid  scan only a specific compartment, default: scan from root compartment
+-c        compartment_ocid  	compartment to store the bucket report, default: root
+-b        bucket_name       	bucket name to store the report, default: reports_YOUR_TENANT_NAME
+-rf       report_folder     	local folder path to store the report, default: ~
+-rn       report_name       	name of the csv report, default: compute_backups_CURRENT_DATE_TIME
+-nocloud                    	if used: do not store csv report on OCI, default: False
+-tlc      compartment_ocid  	scan only a specific compartment, default: scan from root compartment
 -rg       region_name  		scan only a specific region, default: scan all regions
--h,       --help            show this help message and exit
+-h,       --help            	show this help message and exit
 
 ```
 
@@ -66,11 +66,11 @@
 
 without arguments **OCI-ShowBackups** tries to authenticate using Instance Principals
 
-##### Authenticate with local____config____file:
+##### Authenticate with local_config_file:
 	
 	python3 ./OCI-ShowBackups.py -cf
 
-##### Authenticate with custom local____config____file & profile:
+##### Authenticate with custom local_config_file & profile:
 	
 	python3 ./OCI-ShowBackups.py -cf -cfp /home/opc/myconfig -cp MyDomain
 
