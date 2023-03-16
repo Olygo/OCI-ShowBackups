@@ -25,7 +25,6 @@ from modules.compute import *
 
 parser=argparse.ArgumentParser()
 
-#parser.add_argument('-ip', action='store_true', default=False, dest='is_instance_principals', help='Use Instance Principals for Authentication')
 parser.add_argument('-cs', action='store_true', default=False, dest='is_delegation_token', help='Use CloudShell Delegation Token for authentication')
 parser.add_argument('-cf', action='store_true', default=False, dest='is_config_file', help='Use local OCI config file for authentication')
 parser.add_argument('-cfp', default='~/.oci/config', dest='config_file_path', help='Path to your OCI config file, default: ~/.oci/config')

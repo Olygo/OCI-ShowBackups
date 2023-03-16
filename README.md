@@ -93,10 +93,10 @@ without arguments **OCI-ShowBackups** tries to authenticate using Instance Princ
 	python3 ./OCI-ShowBackups.py rg eu-frankfurt-1 -nocloud -rf /home/opc/data/ -rn backups_of_my_instances
 	
 Terminal output
-![Script Output](./output.png)
+![Script Output](https://objectstorage.eu-frankfurt-1.oraclecloud.com/p/ArOLIb0vUtXvhlffPSXKqA1V7pkm4l_Ecrj7pqEXWJ6tL-BSGg41CWqsIEeUMOa9/n/olygo/b/git_images/o/OCI-ShowBackups/output.png)
 
 CSV report
-![Tag Instance](./csv_report.png)
+![Tag Instance](https://objectstorage.eu-frankfurt-1.oraclecloud.com/p/ArOLIb0vUtXvhlffPSXKqA1V7pkm4l_Ecrj7pqEXWJ6tL-BSGg41CWqsIEeUMOa9/n/olygo/b/git_images/o/OCI-ShowBackups/csv_report.png)
 
 ## Disclaimer
 **Please test properly on test resources, before using it on production resources to prevent unwanted outages or unwanted bills.**
